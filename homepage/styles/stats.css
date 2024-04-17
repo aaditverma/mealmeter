@@ -1,0 +1,17 @@
+.stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    top: 0;
+    font-family: "Chivo";
+    font-weight: 600;
+    gap: 40px;
+    margin-bottom: 40px;
+    font-size: 1.75vw;
+}
+
+.stat {
+    text-align: left;
+    padding: 30px;
+    background-color: #d0ded8;
+    border-radius: 10px; 
+}   
