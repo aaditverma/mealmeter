@@ -1,0 +1,117 @@
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.maindiv {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    margin-top: 50px; /* Adjust margin-top to accommodate the navbar */
+    padding-top: 50px; /* Add padding-top to maintain spacing */
+}
+
+.calories {
+    width: 50%;
+}
+
+.user {
+    width: 50%;
+}
+
+.calories p {
+    text-align: center;
+}
+
+.user div {
+    border: 3px solid #1a2d2d;
+    margin: 5px;
+    padding: 10px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #1a2d2ddb;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 0;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+.dropdown-content input {
+    margin-bottom: 10px;
+}
+
+.dropdown-content input[type="file"] {
+    display: block;
+}
+
+.dropdown-content input[type="text"] {
+    width: 100%;
+    padding: 5px;
+}
+
+.share{
+    width:30vw;
+    display:flex;
+    margin-left: 15px; 
+    height: 25vh;
+    font-size:3em;
+    align-items: center;
+    justify-content:center;
+    border: 5px solid #1a2d2d;
+}
+
+.share:hover {
+    cursor: pointer;
+}
+
+#show {
+    display: none;
+}
+
+.personalize{
+
+    display:flex;
+    margin-left: 15px; 
+    height: 25vh;
+    width:30vw;
+    font-size:3em;
+    align-items: center;
+    justify-content:center;
+    border: 5px solid #1a2d2d;
+}
+
+.speedometer {
+    width: 250px; /* Increase the width */
+    height: 250px; /* Increase the height */
+    border-radius: 50%;
+    position: relative;
+    box-shadow: inset 0 0 0 10px black; /* Adjust the thickness here */
+    margin-left: 50px; /* Move it to the right */
+  }
+  
+  
+  
+  .calories {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .face {
+    margin-top: 20px;
+  }
+  
+  .fa-face-smile,
+  .fa-face-angry {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  

@@ -1,0 +1,44 @@
+.hero {
+    background: rgb(238, 238, 238);
+    border-radius: 0px 0px 20px 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+}
+
+.text-info{
+    align-items: left;
+    width: 50%;
+    
+    
+}
+
+.start-now{
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.schedule{
+    background-color: #FFF;
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.toptext{
+    text-align: left;
+    font-weight: 700;
+    margin-left: 50px;
+}
+
+.midtext{
+    text-align: left;
+    font-weight: 400;
+    margin-left: 50px;
+}
+
+.icon{}
+

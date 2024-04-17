@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MealMeter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <link rel="stylesheet" href="styles/maindiv.css">
+    <link rel="stylesheet" href="styles/nav-bar.css">
+    <link rel="stylesheet" href="styles/dropdown.css">
+    <link rel="stylesheet" href="styles/speedometer.css"> <!-- Added new stylesheet for speedometer -->
+</head>
+<body>
+
+    <div class="navbar">
+        <div class="left">
+            <a href="#">MealMeter</a>
+        </div>
+        <div class="right">
+            <a href="#">Profile <i class="fa-solid fa-user"></i></a>
+            <a href="#">Progress <i class="fa-solid fa-bars-progress"></i></a>
+        </div>
+    </div>
+
+    <div class="maindiv">
+        <div class="speedometer">
+            <div class="calories">
+            <p>Calorie Wallet</p>
+            <div class="calorie-bar"></div> <!-- Added new element for the calorie bar -->
+            <p id="calorieCount">0 / 1750</p>
+            <div class="face">
+                <i id="faceIcon" class="fa-solid fa-face-smile"></i>
+                <p id="faceText">Keep Going!</p>
+            </div>
+            </div>
+        </div>
+        
+        <div>
+            <div class="share" id="share" onclick="toggleDropdown()">
+                Share Your Meal    
+            </div>
+            <div class="share" id="show"></div>
+            <div class="personalize">Your Meal Plan</div>
+        </div>
+    </div>
+
+    <script src="javascript/input.js" defer></script>
+    <script src="javascript/caloriecount.js" defer></script>
+    </body>
+</html>
